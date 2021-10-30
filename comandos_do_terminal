@@ -1,8 +1,18 @@
 ls - list directory contents 
-	lista o conteúdo das pastas;
+	lista o conteúdo do diretório atual;
 	
 pwd - print name of current/working directory
 	me dá o caminho absoluto de onde estou;
 
 mkdir - make directories
-	cria um diretório
+	cria um diretório;
+	
+cd (directory name)- change directory
+	entra no diretório quando eu coloco o nome dele logo após o comando;
+	se o diretório tiver apenas uma pasta, preciso apenas dar o cd;
+	se usar o cd e não tiver nenhuma pasta dentro do diretório ele retorna para o início da home;
+	. se refere ao diretório atual, ex: cd ./Downloads/
+	.. se refere ao diretório anterior, volta um diretório, ex: cd ..
+
+
+	
