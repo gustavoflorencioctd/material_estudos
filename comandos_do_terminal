@@ -1,0 +1,8 @@
+ls - list directory contents 
+	lista o conteúdo das pastas;
+	
+pwd - print name of current/working directory
+	me dá o caminho absoluto de onde estou;
+
+mkdir - make directories
+	cria um diretório
