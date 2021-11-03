@@ -1,10 +1,13 @@
 DDL (Data Definition Language) - São comandos que servem para a definição extruturação do banco de dados.
 
-	- CREATE DATABASE <name>: Cria um banco de dados;	
-	- CREATE TABLE <name>: Cria uma tabela;
+	- CREATE DATABASE <name>: Cria um banco de dados, é sempre interessante usar o parâmetro 'IF NOT EXISTS', para não sobrescrever uma tabela de mesmo nome;	
+	- CREATE TABLE <name>: Cria uma tabela,;
+	- ALTER TABLE <name>: faz alterações nas tabelas, como, add novas colunas, mudar nomes e tipos das colunas, etc;
+	- DROP TABLE <name>: Deleta uma tabela;
 
 DML (Data Manipulation Language) - São comandos que servem para a manipução dos dados nas tabelas.
 
 	- INSERT INTO <name table> VALUES: Inseri valores nas linhas das tabelas;
+
 
 
